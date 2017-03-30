@@ -34,15 +34,15 @@ public class Metodos {
 
             if (nomefich.equals("aprobados.dat")) {
                 for (Alumnos a : ListaAprovados) {
-                    fichero.println(a.nome + ' ' + a.nota);
+                    fichero.println(a.nome + ',' + a.nota);
                 }
             } else if (nomefich.equals("suspensos.dat")) {
                 for (Alumnos a : ListaSuspensos) {
-                    fichero.println(a.nome + ' ' + a.nota);
+                    fichero.println(a.nome + ',' + a.nota);
                 }
             } else if (nomefich.equals("notas.dat")) {
                 for (Alumnos a : ListaNotas) {
-                    fichero.println(a.nome + ' ' + a.nota);
+                    fichero.println(a.nome + ',' + a.nota);
                 }
             }
 
