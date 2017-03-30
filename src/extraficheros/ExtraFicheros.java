@@ -17,6 +17,8 @@ public class ExtraFicheros {
     public static void main(String[] args) {
          Metodos a = new Metodos();
          
+         a.añadir();
+         a.engadir("notas.dat");
          a.ler("notas.dat");
     }
     

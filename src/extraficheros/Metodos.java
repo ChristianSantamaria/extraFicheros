@@ -20,6 +20,12 @@ public class Metodos {
     File fichero;
     FileReader lectura;
     Scanner sc;
+    
+    public void añadir(){
+        ListaNotas.add(new Alumnos("Pepe", 9));
+        ListaNotas.add(new Alumnos("Manu", 3));
+        ListaNotas.add(new Alumnos("Juan", 2));
+    }
 
     public void engadir(String nomefich) {
         PrintWriter fichero = null;
@@ -41,7 +47,7 @@ public class Metodos {
             }
 
         } catch (IOException ex) {
-            System.out.println("Erro2");
+            System.out.println("Error 7");
         } finally {
             fichero.close();
         }
